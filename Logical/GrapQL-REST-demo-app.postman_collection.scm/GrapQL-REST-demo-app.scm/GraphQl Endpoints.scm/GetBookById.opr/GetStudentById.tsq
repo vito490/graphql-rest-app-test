@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<editableResource createdTimestamp="1688993806497"
-    createdUser="059298758" id="-714a168c:1893fd66f9d:-7e48"
-    references="-714a168c:1893fd66f9d:-7ec2:284424390:408339756"
-    type="test_resource" updatedTimestamp="1688993806497"
+<editableResource createdTimestamp="1689004034423"
+    createdUser="059298758" id="2b0535b5:1894078ddb5:-7daa"
+    references="2b0535b5:1894078ddb5:-7df0:284424390:408339756"
+    type="test_resource" updatedTimestamp="1689004034439"
     updatedUser="059298758" version="1.1">
     <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
     <resourceConfig description="" name="">
         <testTree>
-            <editableResource id="-714a168c:1893fd66f9d:-7e46"
-                references="-714a168c:1893fd66f9d:-7ec2:284424390:408339756"
+            <editableResource id="2b0535b5:1894078ddb5:-7da8"
+                references="2b0535b5:1894078ddb5:-7df0:284424390:408339756"
                 selfDescribing="Pubblicare un messaggio e attendere la ricezione di una risposta.  È possibile quindi convalidarlo di conseguenza."
                 type="send_request_action" version="1.1">
                 <loggingConfiguration debug="false"
                     resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
                 <resourceConfig description="" formatter="HTTP_Message"
-                    name="&quot;Text&quot; sulla risorsa &quot;/graphql&quot; utilizzando lo schema &quot;Text&quot; via &quot;localhost:8080&quot;" transport="-714a168c:1893fd66f9d:-7ec2:284424390:408339756">
+                    name="&quot;Text&quot; sulla risorsa &quot;/graphql&quot; utilizzando lo schema &quot;Text&quot; via &quot;localhost:8080&quot;" transport="2b0535b5:1894078ddb5:-7df0:284424390:408339756">
                     <headerMessage meTy="Message" type="12" version="1.2">
                         <fieldActionGroup>
                             <fieldAction enabled="false" type="1">
@@ -199,16 +199,16 @@
                     </bodyMessage>
                 </resourceConfig>
             </editableResource>
-            <editableResource id="-714a168c:1893fd66f9d:-7e42"
-                references="-714a168c:1893fd66f9d:-7ec2:284424390:408339756"
+            <editableResource id="2b0535b5:1894078ddb5:-7da4"
+                references="2b0535b5:1894078ddb5:-7df0:284424390:408339756"
                 selfDescribing="Ricevi e convalida una risposta alla richiesta inviata."
                 type="receive_reply_action" version="1.1">
                 <loggingConfiguration debug="false"
                     resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
                 <resourceConfig description="" formatter="HTTP_Message"
                     name="&quot;Text&quot; utilizzando lo schema &quot;Text&quot; timeout 30000ms"
-                    sendRequestID="-714a168c:1893fd66f9d:-7e46"
-                    timeout="30000" transport="-714a168c:1893fd66f9d:-7ec2:284424390:408339756">
+                    sendRequestID="2b0535b5:1894078ddb5:-7da8"
+                    timeout="30000" transport="2b0535b5:1894078ddb5:-7df0:284424390:408339756">
                     <headerMessage assocdefid="Http Receive Reply"
                         meTy="Message" name="" sch="Http Receive Reply"
                         type="12" version="1.2">
@@ -253,7 +253,7 @@
                             sch="Http Receive Reply" type="11" version="1.2"/>
                     </headerMessage>
                     <subconfig MessageType="http.text.message.type"
-                        _version="1.1" formatter="HTTP_Message" transport="-714a168c:1893fd66f9d:-7ec2:284424390:408339756"/>
+                        _version="1.1" formatter="HTTP_Message" transport="2b0535b5:1894078ddb5:-7df0:284424390:408339756"/>
                     <bodyMessage assocdefid="Text" name="Text"
                         sch="Text" type="12" version="1.2">
                         <fieldActionGroup>

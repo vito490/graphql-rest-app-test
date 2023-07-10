@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<editableResource createdTimestamp="1688993805937"
+<editableResource createdTimestamp="1689004034267"
     createdUser="059298758"
-    id="-714a168c:1893fd66f9d:-7ec2:1276712414:408339756"
+    id="2b0535b5:1894078ddb5:-7df0:1276712414:408339756"
     type="infrastructure_component_resource"
-    updatedTimestamp="1688993805937" updatedUser="059298758" version="1.1">
+    updatedTimestamp="1689004034267" updatedUser="059298758" version="1.1">
     <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
     <resourceConfig infrastructureType="http_transport">
         <recordingSettings colour="124,199,255"/>

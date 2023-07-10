@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<editableResource createdTimestamp="1689004034205"
-    createdUser="059298758" id="2b0535b5:1894078ddb5:-7dd1"
+<editableResource createdTimestamp="1689004034189"
+    createdUser="059298758" id="2b0535b5:1894078ddb5:-7dd3"
     type="environment_resource" updatedTimestamp="1689004034220"
     updatedUser="059298758" version="1.0">
     <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
     <resourceConfig isOverridingSecretsNamespace="false">
-        <environmentVariable evdescription="" key="app_url" value="http://localhost:8080"/>
-        <environmentVariable evdescription="" key="app_url_HOST" value="localhost"/>
-        <environmentVariable evdescription="" key="app_url_PORT" value="8080"/>
+        <environmentVariable evdescription="" key="app_url" value="https://java-app-ocp-app.apps.ocp-3100002y2h-r6yn.cloud.techzone.ibm.com:443"/>
+        <environmentVariable evdescription="" key="app_url_HOST" value="java-app-ocp-app.apps.ocp-3100002y2h-r6yn.cloud.techzone.ibm.com"/>
+        <environmentVariable evdescription="" key="app_url_PORT" value="443"/>
         <evbindings>
             <evbinding
                 evLogicalItemId="2b0535b5:1894078ddb5:-7df0:1276712414:408339756" evPhysicalItemId="2b0535b5:1894078ddb5:-7df0:-1956796281:1544155186"/>
