@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1688993805916"
+    createdUser="059298758"
+    id="-714a168c:1893fd66f9d:-7ec2:-1956796281:1544155186"
+    selfDescribing="app_url:app_url - http %%app_url_HOST%%"
+    type="http_transport" updatedTimestamp="1688993805916"
+    updatedUser="059298758" version="1.0">
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig transportName="app_url:app_url" transportTemplateName="HTTP">
+        <messageProperties
+            ReasonPhrase="Nessuno Stub disponibile che corrisponde alla richiesta"
+            clientConnectionsPerHost="100" credDomain="" credPassword=""
+            credPreemptive="false" credType="0" credUser=""
+            httpHost="%%app_url_HOST%%" httpNtlmDomain=""
+            httpPort="%%app_url_PORT%%" httpProxyHost=""
+            httpProxyPassword="" httpProxyPort="" httpProxyUsername=""
+            httpResourceRoot="" httpServerSocketBindAddressOverride=""
+            httpServerSocketPortOverride="" httpSocketTimeout=""
+            httpTimeoutResponseCode="503" httpVirtualHost=""
+            proxyType="http.proxy.default" useSsl="false" version="4">
+            <kerberos Anon="false" CStyle="Nome utente/Password"
+                Conf="false" Custom="true" Enabled="false" Integ="false"
+                MutAuth="false" RepDet="false" SSO="false" SeqCheck="false"/>
+            <oauth authURL="" clientassertion="" clientid=""
+                clientsecret="" enabled="false"
+                redirect_url="http://localhost:8080/callback"
+                refreshtoken="" scopes="" tokenendpoint=""/>
+        </messageProperties>
+    </resourceConfig>
+</editableResource>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1688993805697"
+    createdUser="059298758" id="-714a168c:1893fd66f9d:-7ec2"
+    type="service_component_resource" updatedTimestamp="1688993805697"
+    updatedUser="059298758" version="1.1">
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+</editableResource>

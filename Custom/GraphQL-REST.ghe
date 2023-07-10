@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1688993805838"
+    createdUser="059298758" id="-714a168c:1893fd66f9d:-7ea7"
+    type="environment_resource" updatedTimestamp="1688993805869"
+    updatedUser="059298758" version="1.0">
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig isOverridingSecretsNamespace="false">
+        <environmentVariable evdescription="" key="app_url" value="http://localhost:8080"/>
+        <environmentVariable evdescription="" key="app_url_HOST" value="localhost"/>
+        <environmentVariable evdescription="" key="app_url_PORT" value="8080"/>
+        <evbindings>
+            <evbinding
+                evLogicalItemId="-714a168c:1893fd66f9d:-7ec2:1276712414:408339756" evPhysicalItemId="-714a168c:1893fd66f9d:-7ec2:-1956796281:1544155186"/>
+            <evbinding
+                evLogicalItemId="-714a168c:1893fd66f9d:-7ec2:284424390:408339756" evPhysicalItemId="-714a168c:1893fd66f9d:-7ec2:-1238927689:1544155186"/>
+        </evbindings>
+    </resourceConfig>
+</editableResource>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1688993808104"
+    createdUser="059298758" id="-714a168c:1893fd66f9d:-7dca"
+    selfDescribing="localhost (127.0.0.1) - Statistiche di sistema (valore predefinito)"
+    type="probe_resource" updatedTimestamp="1688993808104"
+    updatedUser="059298758" version="1.0">
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig defaultFlag="true" name="valore predefinito"
+        physicalResourceID="-714a168c:1893fd66f9d:-7dd2" probeID="plugin.custom.SysStat">
+        <SysStatDatasource allProcesses="true" configurazione="valore predefinito"/>
+    </resourceConfig>
+</editableResource>

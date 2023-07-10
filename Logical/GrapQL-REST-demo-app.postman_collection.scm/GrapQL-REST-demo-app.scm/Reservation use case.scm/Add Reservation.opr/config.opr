@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1688993806544"
+    createdUser="059298758"
+    id="-714a168c:1893fd66f9d:-7ec2:-1348055353:-807255066"
+    type="operation_resource" updatedTimestamp="1688993806544"
+    updatedUser="059298758" version="1.0">
+    <documentation>
+        <description externalID="e9c919b2-18b7-33cf-a512-7c79193c8df0" value="Posizione del file:C:\progetti\demo\Urban Code\comprehensive-demo\rational\GrapQL-REST-demo-app.postman_collection.json&#xd;&#xa;"/>
+    </documentation>
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig avgTime="0" color="186,143,247"
+        dependencies="-714a168c:1893fd66f9d:-7ec2:855301773:-332410441"
+        invokeDynamicFormatterID="http.text.message.type"
+        invokeEndDynamicFormatterID="http.text.message.type"
+        invokeEndFormatterID="HTTP_Message"
+        invokeEndTransportID="-714a168c:1893fd66f9d:-7ec2:1276712414:408339756"
+        invokeFormatterID="HTTP_Message"
+        invokeTransportID="-714a168c:1893fd66f9d:-7ec2:1276712414:408339756"
+        maxTime="0" mepEndUsed="true"
+        mepStartSchemaID="-714a168c:1893fd66f9d:-7ec2:855301773:-332410441"
+        mepStartSchemaNodeFormatter="rest_nodeformatter"
+        mepStartSchemaroot="/reservations/add" mepType="IN_OUT"
+        minTime="0" stubDynamicFormatterID="http.text.message.type"
+        stubFormatterID="HTTP_Message" stubTransportID="-714a168c:1893fd66f9d:-7ec2:1276712414:408339756">
+        <invokeHeaderNode meTy="Message" type="12" version="1.2">
+            <fieldActionGroup>
+                <fieldAction enabled="false" type="1">
+                    <fieldAction anyOrder="false" enabled="false"
+                        ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                </fieldAction>
+            </fieldActionGroup>
+            <_c meTy="String" name="MessageType" type="7"
+                value="http.text.message.type" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction type="0">
+                        <fieldAction exp="http.text.message.type" type="0"/>
+                    </fieldAction>
+                </fieldActionGroup>
+            </_c>
+            <_c meTy="String" name="Method" type="7" value="GET" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction type="0">
+                        <fieldAction exp="GET" type="0"/>
+                    </fieldAction>
+                </fieldActionGroup>
+            </_c>
+            <_c meTy="String" name="URL" type="7"
+                value="/reservations/add?studentId=1&amp;bookId=1&amp;reservationId=1" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction type="0">
+                        <fieldAction
+                            exp="/reservations/add?studentId=1&amp;bookId=1&amp;reservationId=1" type="0"/>
+                    </fieldAction>
+                </fieldActionGroup>
+            </_c>
+            <_c meTy="Message" name="httpDetails" type="12" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction enabled="false" type="1">
+                        <fieldAction anyOrder="false" enabled="false"
+                            ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                    </fieldAction>
+                </fieldActionGroup>
+                <_c meTy="String" name="Version" type="7" value="" version="1.2">
+                    <fieldActionGroup>
+                        <fieldAction type="0">
+                            <fieldAction type="0"/>
+                        </fieldAction>
+                    </fieldActionGroup>
+                </_c>
+                <_c meTy="Message" name="httpHeaders" type="12" version="1.2">
+                    <fieldActionGroup>
+                        <fieldAction enabled="false" type="1">
+                            <fieldAction anyOrder="false"
+                                enabled="false" ignoreExtra="false"
+                                ignoreNonPresent="false" type="100"/>
+                        </fieldAction>
+                    </fieldActionGroup>
+                </_c>
+                <_c meTy="Boolean" name="followRedirects" type="8"
+                    value="true" version="1.2">
+                    <fieldActionGroup>
+                        <fieldAction type="0">
+                            <fieldAction exp="true" type="0"/>
+                        </fieldAction>
+                    </fieldActionGroup>
+                </_c>
+            </_c>
+        </invokeHeaderNode>
+        <stubHeaderConfig>
+            <_c MessageType="http.text.message.type" Method="GET"
+                URL="/reservations/add?studentId=1&amp;bookId=1&amp;reservationId=1"
+                allowSubPath="false" consumerType="Participate"
+                filterHeaders="false" filterMethod="true" filterResourcePath="true"/>
+        </stubHeaderConfig>
+    </resourceConfig>
+</editableResource>
