@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<editableResource createdTimestamp="1688993806010"
+<editableResource createdTimestamp="1689004034738"
     createdUser="059298758"
-    id="-714a168c:1893fd66f9d:-7ec2:-1929824041:-807255066"
-    type="operation_resource" updatedTimestamp="1688993806010"
+    id="2b0535b5:1894078ddb5:-7df0:-28358236:-807255066"
+    type="operation_resource" updatedTimestamp="1689004034738"
     updatedUser="059298758" version="1.0">
     <documentation>
         <description externalID="6ead08d2-b6e0-3f12-8dcd-69af6667cbd5" value="Posizione del file:C:\progetti\demo\Urban Code\comprehensive-demo\rational\GrapQL-REST-demo-app.postman_collection.json&#xd;&#xa;"/>
     </documentation>
     <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
-    <resourceConfig avgTime="0" color="110,237,216"
-        dependencies="-714a168c:1893fd66f9d:-7ec2:349807996:-332410441"
+    <resourceConfig avgTime="0" color="186,143,247"
+        dependencies="2b0535b5:1894078ddb5:-7df0:349807996:-332410441"
         invokeDynamicFormatterID="http.text.message.type"
         invokeEndDynamicFormatterID="http.text.message.type"
         invokeEndFormatterID="HTTP_Message"
-        invokeEndTransportID="-714a168c:1893fd66f9d:-7ec2:1276712414:408339756"
+        invokeEndTransportID="2b0535b5:1894078ddb5:-7df0:1276712414:408339756"
         invokeFormatterID="HTTP_Message"
-        invokeTransportID="-714a168c:1893fd66f9d:-7ec2:1276712414:408339756"
+        invokeTransportID="2b0535b5:1894078ddb5:-7df0:1276712414:408339756"
         maxTime="0" mepEndUsed="true"
-        mepStartSchemaID="-714a168c:1893fd66f9d:-7ec2:349807996:-332410441"
+        mepStartSchemaID="2b0535b5:1894078ddb5:-7df0:349807996:-332410441"
         mepStartSchemaNodeFormatter="rest_nodeformatter"
         mepStartSchemaroot="/student/add" mepType="IN_OUT" minTime="0"
         stubDynamicFormatterID="http.text.message.type"
-        stubFormatterID="HTTP_Message" stubTransportID="-714a168c:1893fd66f9d:-7ec2:1276712414:408339756">
+        stubFormatterID="HTTP_Message" stubTransportID="2b0535b5:1894078ddb5:-7df0:1276712414:408339756">
         <invokeHeaderNode meTy="Message" type="12" version="1.2">
             <fieldActionGroup>
                 <fieldAction enabled="false" type="1">

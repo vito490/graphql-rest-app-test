@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<editableResource createdTimestamp="1688993806403"
+<editableResource createdTimestamp="1689004034329"
     createdUser="059298758"
-    id="-714a168c:1893fd66f9d:-7ec2:-132265920:-807255066"
-    type="operation_resource" updatedTimestamp="1688993806403"
+    id="2b0535b5:1894078ddb5:-7df0:1584877661:-807255066"
+    type="operation_resource" updatedTimestamp="1689004034329"
     updatedUser="059298758" version="1.0">
     <documentation>
         <description externalID="e8a7007c-2946-314d-b137-52b29f35d001" value="Posizione del file:C:\progetti\demo\Urban Code\comprehensive-demo\rational\GrapQL-REST-demo-app.postman_collection.json&#xd;&#xa;"/>
     </documentation>
     <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
-    <resourceConfig avgTime="0" color="215,170,255" dependencies=""
+    <resourceConfig avgTime="0" color="110,237,216" dependencies=""
         invokeDynamicFormatterID="http.text.message.type"
         invokeEndDynamicFormatterID="http.text.message.type"
         invokeEndFormatterID="HTTP_Message"
-        invokeEndTransportID="-714a168c:1893fd66f9d:-7ec2:284424390:408339756"
+        invokeEndTransportID="2b0535b5:1894078ddb5:-7df0:284424390:408339756"
         invokeFormatterID="HTTP_Message"
-        invokeTransportID="-714a168c:1893fd66f9d:-7ec2:284424390:408339756"
+        invokeTransportID="2b0535b5:1894078ddb5:-7df0:284424390:408339756"
         maxTime="0" mepEndUsed="true" mepType="IN_OUT" minTime="0"
         stubDynamicFormatterID="http.text.message.type"
-        stubFormatterID="HTTP_Message" stubTransportID="-714a168c:1893fd66f9d:-7ec2:284424390:408339756">
+        stubFormatterID="HTTP_Message" stubTransportID="2b0535b5:1894078ddb5:-7df0:284424390:408339756">
         <invokeHeaderNode meTy="Message" type="12" version="1.2">
             <fieldActionGroup>
                 <fieldAction enabled="false" type="1">

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1688996516907"
+    createdUser="059298758" id="-5907da57:1893ffc1485:-7ddb"
+    type="environment_resource" updatedTimestamp="1726042591738"
+    updatedUser="VitoSammarco1" version="1.0">
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig isOverridingSecretsNamespace="false" overridingSecretsNamespace="">
+        <environmentVariable evdescription="" key="app_url" value="https://graphql-app-deploy.apps.6658525ddfd152001ef3dcb7.cloud.techzone.ibm.com:443"/>
+        <environmentVariable evdescription="" key="app_url_HOST" value="graphql-app-deploy.apps.6658525ddfd152001ef3dcb7.cloud.techzone.ibm.com"/>
+        <environmentVariable evdescription="" key="app_url_PORT" value="443"/>
+        <evbindings>
+            <evbinding
+                evLogicalItemId="2b0535b5:1894078ddb5:-7df0:1276712414:408339756" evPhysicalItemId="2b0535b5:1894078ddb5:-7df0:-1238927689:1544155186"/>
+            <evbinding
+                evLogicalItemId="2b0535b5:1894078ddb5:-7df0:284424390:408339756" evPhysicalItemId="2b0535b5:1894078ddb5:-7df0:-1238927689:1544155186"/>
+        </evbindings>
+    </resourceConfig>
+</editableResource>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1693989624121"
+    createdUser="059298758" id="-752b710a:18a696ff73b:-7b4f"
+    selfDescribing="CICS - Server IPIC CICS" type="ctg_transport"
+    updatedTimestamp="1693989840179" updatedUser="059298758" version="1.0">
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig transportName="CICS" transportTemplateName="IBM CICS Transaction Gateway">
+        <_c APPLID="" DplCtgStubAddress="" DplCtgStubPort="" Host=""
+            IPICHost="123.42.24.222" IPICPort="2345"
+            IPICPwd="#com.ghc.1!b756A2F272691169553B0CA5"
+            IPICStubAddress="" IPICStubPort="" IPICUser="xxxx"
+            JOBNAME="" Port="" Pwd="#com.ghc.1!8183" SYSID="" Server=""
+            UseServerName="false" User="" useSsl="false">
+            <ipicSSL useSsl="false"/>
+        </_c>
+    </resourceConfig>
+</editableResource>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<editableResource createdTimestamp="1688993806627"
+<editableResource createdTimestamp="1689004034819"
     createdUser="059298758"
-    id="-714a168c:1893fd66f9d:-7ec2:-1230846136:-332410441"
+    id="2b0535b5:1894078ddb5:-7df0:-1230846136:-332410441"
     selfDescribing="Add Book" type="parameterized_url_schema"
-    updatedTimestamp="1688993806627" updatedUser="059298758" version="1.0">
+    updatedTimestamp="1689004034819" updatedUser="059298758" version="1.0">
     <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
     <resourceConfig schemaSourceTemplateName="URL">
         <schemaSourceConfig name="Add Book">

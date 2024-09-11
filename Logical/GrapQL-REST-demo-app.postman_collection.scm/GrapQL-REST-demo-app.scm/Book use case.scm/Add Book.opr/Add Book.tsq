@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<editableResource createdTimestamp="1688993806379"
-    createdUser="059298758" id="-714a168c:1893fd66f9d:-7e64"
-    references="-714a168c:1893fd66f9d:-7ec2:1276712414:408339756"
-    type="test_resource" updatedTimestamp="1688993806387"
+<editableResource createdTimestamp="1689004034594"
+    createdUser="059298758" id="2b0535b5:1894078ddb5:-7d85"
+    references="2b0535b5:1894078ddb5:-7df0:1276712414:408339756"
+    type="test_resource" updatedTimestamp="1689004034599"
     updatedUser="059298758" version="1.1">
     <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
     <resourceConfig description="" name="">
         <testTree>
-            <editableResource id="-714a168c:1893fd66f9d:-7e62"
-                references="-714a168c:1893fd66f9d:-7ec2:1276712414:408339756"
+            <editableResource id="2b0535b5:1894078ddb5:-7d83"
+                references="2b0535b5:1894078ddb5:-7df0:1276712414:408339756"
                 selfDescribing="Pubblicare un messaggio e attendere la ricezione di una risposta.  È possibile quindi convalidarlo di conseguenza."
                 type="send_request_action" version="1.1">
                 <loggingConfiguration debug="false"
                     resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
                 <resourceConfig description="" formatter="HTTP_Message"
-                    name="&quot;Text&quot; sulla risorsa &quot;/books/add?id={id}&amp;name={name}&amp;isbn={isbn}&quot; utilizzando lo schema &quot;Text&quot; via &quot;app_url:app_url&quot;" transport="-714a168c:1893fd66f9d:-7ec2:1276712414:408339756">
+                    name="&quot;Text&quot; sulla risorsa &quot;/books/add?id={id}&amp;name={name}&amp;isbn={isbn}&quot; utilizzando lo schema &quot;Text&quot; via &quot;app_url:app_url&quot;" transport="2b0535b5:1894078ddb5:-7df0:1276712414:408339756">
                     <headerMessage meTy="Message" type="12" version="1.2">
                         <fieldActionGroup>
                             <fieldAction enabled="false" type="1">
@@ -102,7 +102,7 @@
                             sch="Text" type="12" version="1.2">
                             <fieldExpander
                                 fieldExpanderID="rest_fieldexpander"
-                                fieldSchema="-714a168c:1893fd66f9d:-7ec2:-1230846136:-332410441" fieldSchemaRoot="/books/add"/>
+                                fieldSchema="2b0535b5:1894078ddb5:-7df0:-1230846136:-332410441" fieldSchemaRoot="/books/add"/>
                             <fieldActionGroup>
                                 <fieldAction type="0">
                                     <fieldAction type="4"/>
@@ -113,7 +113,7 @@
                             </fieldActionGroup>
                             <_c assocdefid="/books/add"
                                 name="/books/add"
-                                sch="-714a168c:1893fd66f9d:-7ec2:-1230846136:-332410441"
+                                sch="2b0535b5:1894078ddb5:-7df0:-1230846136:-332410441"
                                 type="12" version="1.2">
                                 <fieldActionGroup>
                                     <fieldAction enabled="false" type="1">
@@ -124,7 +124,7 @@
                                     </fieldAction>
                                 </fieldActionGroup>
                                 <_c name="id"
-                                    sch="-714a168c:1893fd66f9d:-7ec2:-1230846136:-332410441"
+                                    sch="2b0535b5:1894078ddb5:-7df0:-1230846136:-332410441"
                                     type="7" version="1.2">
                                     <fieldActionGroup>
                                     <fieldAction type="0">
@@ -133,7 +133,7 @@
                                     </fieldActionGroup>
                                 </_c>
                                 <_c name="name"
-                                    sch="-714a168c:1893fd66f9d:-7ec2:-1230846136:-332410441"
+                                    sch="2b0535b5:1894078ddb5:-7df0:-1230846136:-332410441"
                                     type="7" version="1.2">
                                     <fieldActionGroup>
                                     <fieldAction type="0">
@@ -143,7 +143,7 @@
                                     </fieldActionGroup>
                                 </_c>
                                 <_c name="isbn"
-                                    sch="-714a168c:1893fd66f9d:-7ec2:-1230846136:-332410441"
+                                    sch="2b0535b5:1894078ddb5:-7df0:-1230846136:-332410441"
                                     type="7" version="1.2">
                                     <fieldActionGroup>
                                     <fieldAction type="0">
@@ -153,7 +153,7 @@
                                     </fieldActionGroup>
                                 </_c>
                                 <_c name="body" optional="true"
-                                    sch="-714a168c:1893fd66f9d:-7ec2:-1230846136:-332410441"
+                                    sch="2b0535b5:1894078ddb5:-7df0:-1230846136:-332410441"
                                     type="12" version="1.2">
                                     <fieldActionGroup>
                                     <fieldAction enabled="false" type="1">
@@ -165,7 +165,7 @@
                                     </fieldAction>
                                     </fieldActionGroup>
                                     <_c name="text"
-                                    sch="-714a168c:1893fd66f9d:-7ec2:-1230846136:-332410441"
+                                    sch="2b0535b5:1894078ddb5:-7df0:-1230846136:-332410441"
                                     type="7" version="1.2">
                                     <fieldActionGroup>
                                     <fieldAction type="0">
@@ -179,16 +179,16 @@
                     </bodyMessage>
                 </resourceConfig>
             </editableResource>
-            <editableResource id="-714a168c:1893fd66f9d:-7e5e"
-                references="-714a168c:1893fd66f9d:-7ec2:1276712414:408339756"
+            <editableResource id="2b0535b5:1894078ddb5:-7d7f"
+                references="2b0535b5:1894078ddb5:-7df0:1276712414:408339756"
                 selfDescribing="Ricevi e convalida una risposta alla richiesta inviata."
                 type="receive_reply_action" version="1.1">
                 <loggingConfiguration debug="false"
                     resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
                 <resourceConfig description="" formatter="HTTP_Message"
                     name="&quot;Text&quot; utilizzando lo schema &quot;Text&quot; timeout 30000ms"
-                    sendRequestID="-714a168c:1893fd66f9d:-7e62"
-                    timeout="30000" transport="-714a168c:1893fd66f9d:-7ec2:1276712414:408339756">
+                    sendRequestID="2b0535b5:1894078ddb5:-7d83"
+                    timeout="30000" transport="2b0535b5:1894078ddb5:-7df0:1276712414:408339756">
                     <headerMessage assocdefid="Http Receive Reply"
                         meTy="Message" name="" sch="Http Receive Reply"
                         type="12" version="1.2">
@@ -233,7 +233,7 @@
                             sch="Http Receive Reply" type="11" version="1.2"/>
                     </headerMessage>
                     <subconfig MessageType="http.text.message.type"
-                        _version="1.1" formatter="HTTP_Message" transport="-714a168c:1893fd66f9d:-7ec2:1276712414:408339756"/>
+                        _version="1.1" formatter="HTTP_Message" transport="2b0535b5:1894078ddb5:-7df0:1276712414:408339756"/>
                     <bodyMessage assocdefid="Text" name="Text"
                         sch="Text" type="12" version="1.2">
                         <fieldActionGroup>
