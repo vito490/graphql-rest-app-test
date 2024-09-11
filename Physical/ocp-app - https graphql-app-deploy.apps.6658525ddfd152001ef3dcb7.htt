@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<editableResource createdTimestamp="1689004034251"
+<editableResource createdTimestamp="1689004034238"
     createdUser="059298758"
-    id="2b0535b5:1894078ddb5:-7df0:-1956796281:1544155186"
-    selfDescribing="app_url:app_url - https %%app_url_HOST%%"
-    type="http_transport" updatedTimestamp="1689004845416"
-    updatedUser="059298758" version="1.0">
+    id="2b0535b5:1894078ddb5:-7df0:-1238927689:1544155186"
+    selfDescribing="ocp-app - https graphql-app-deploy.apps.6658525ddfd152001ef3dcb7.cloud.techzone.ibm.com"
+    type="http_transport" updatedTimestamp="1726042268917"
+    updatedUser="VitoSammarco1" version="1.0">
     <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
-    <resourceConfig transportName="app_url:app_url" transportTemplateName="HTTP">
+    <resourceConfig transportName="ocp-app" transportTemplateName="HTTP">
         <messageProperties
             ReasonPhrase="Nessuno Stub disponibile che corrisponde alla richiesta"
             clientConnectionsPerHost="100" credDomain=""
-            credPassword="#com.ghc.1!8638" credPreemptive="false"
-            credType="0" credUser="" httpHost="%%app_url_HOST%%"
-            httpNtlmDomain="" httpPort="%%app_url_PORT%%"
-            httpProxyHost="localhost"
-            httpProxyPassword="#com.ghc.1!564f" httpProxyPort="8080"
+            credPassword="#com.ghc.1!36e1" credPreemptive="false"
+            credType="0" credUser=""
+            httpHost="graphql-app-deploy.apps.6658525ddfd152001ef3dcb7.cloud.techzone.ibm.com"
+            httpNtlmDomain="" httpPort="" httpProxyHost=""
+            httpProxyPassword="#com.ghc.1!8cc5" httpProxyPort=""
             httpProxyUsername="" httpResourceRoot=""
             httpServerSocketBindAddressOverride=""
             httpServerSocketPortOverride="" httpSocketTimeout=""
@@ -22,7 +22,7 @@
             proxyType="http.proxy.default" recType="PROXY" useSsl="true" version="4">
             <kerberos Anon="false" Conf="false" Custom="true"
                 Enabled="false" Integ="false" KDC="" Loc=""
-                MutAuth="false" Principal="" Pwd="#com.ghc.1!23f8"
+                MutAuth="false" Principal="" Pwd="#com.ghc.1!885b"
                 Realm="" RepDet="false" SSO="false" SeqCheck="false"/>
             <oauth authURL="" clientassertion="" clientid=""
                 clientsecret="" enabled="false"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1689172287109"
+    createdUser="059298758" id="7a976d37:1894a8353ce:-7e66"
+    selfDescribing="cics-test - --NON CONFIGURATO--"
+    type="ctg_transport" updatedTimestamp="1689172287109"
+    updatedUser="059298758" version="1.0">
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig transportName="cics-test" transportTemplateName="IBM CICS Transaction Gateway"/>
+</editableResource>

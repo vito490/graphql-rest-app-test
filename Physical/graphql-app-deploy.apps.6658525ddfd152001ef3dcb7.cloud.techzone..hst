@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1726042268999"
+    createdUser="VitoSammarco1" id="-6a34b803:191e015b920:-7dd5"
+    selfDescribing="graphql-app-deploy.apps.6658525ddfd152001ef3dcb7.cloud.techzone.ibm.com (169.50.187.209)"
+    type="host_machine_resource" updatedTimestamp="1726042268999"
+    updatedUser="VitoSammarco1" version="1.0">
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig host_address="169.50.187.209" user_host_name="graphql-app-deploy.apps.6658525ddfd152001ef3dcb7.cloud.techzone.ibm.com">
+        <roles>
+            <identity name="ssh" port="22"/>
+        </roles>
+    </resourceConfig>
+</editableResource>

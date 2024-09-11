@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1689004034189"
     createdUser="059298758" id="2b0535b5:1894078ddb5:-7dd3"
-    type="environment_resource" updatedTimestamp="1689004034220"
+    type="environment_resource" updatedTimestamp="1693989637677"
     updatedUser="059298758" version="1.0">
     <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
-    <resourceConfig isOverridingSecretsNamespace="false">
+    <resourceConfig isOverridingSecretsNamespace="false" overridingSecretsNamespace="">
         <environmentVariable evdescription="" key="app_url" value="https://java-app-ocp-app.apps.ocp-3100002y2h-r6yn.cloud.techzone.ibm.com:443"/>
         <environmentVariable evdescription="" key="app_url_HOST" value="java-app-ocp-app.apps.ocp-3100002y2h-r6yn.cloud.techzone.ibm.com"/>
         <environmentVariable evdescription="" key="app_url_PORT" value="443"/>

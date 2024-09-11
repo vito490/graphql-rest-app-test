@@ -4,7 +4,11 @@
     domain="default" extDocPrefix="" name="GraphQL-REST-app-tests"
     owner="059298758" rulesCacheUri="%%PROJECT/ROOT%%Rules"
     updateResultsDbOnItemChange="false" uuid="00000189-3fd3-d5db-0000-57ddf3d61310">
-    <rootEnvironmentConfig isOverridingSecretsNamespace="false" overridingSecretsNamespace=""/>
+    <rootEnvironmentConfig isOverridingSecretsNamespace="false" overridingSecretsNamespace="">
+        <environmentVariable evdescription="" key="app_url" value=""/>
+        <environmentVariable evdescription="" key="app_url_HOST" value=""/>
+        <environmentVariable evdescription="" key="app_url_PORT" value=""/>
+    </rootEnvironmentConfig>
     <dateTimeConfig date="yyyy/MM/dd" dateTime="dd-MMM-yyyy HH:mm:ss" time="HH:mm:ss.SSS"/>
     <serverSettings ghRepositoryURL="https://localhost:5443/RTCP"
         trustSource="INBUILT_CA" trustStorePath="">
@@ -28,15 +32,16 @@
                     storedProceduresRetrievalEnabled="false" useConnectionUsername="true"/>
                 <timestampFormatting timestampFormatZero="false"
                     timestampFormattingEnabled="false" timestampPrecision="9"/>
+                <proxy useProxy="false"/>
             </connectionParams>
         </dbConnectionParameters>
         <automationServer enabled="true" hostname="rtas.ibmdevops.com"
             port="443" projectId="92100"
             projectName="integration test demo" publishResults="true"
-            trustSource="TRUST_ALL" trustStorePassword="#com.ghc.1!fcf8" trustStorePath=""/>
+            trustSource="TRUST_ALL" trustStorePassword="#com.ghc.1!cfa9" trustStorePath=""/>
     </serverSettings>
     <permissionsSettings ADtrustSource="NONE"
-        ADtrustStorePassword="#com.ghc.1!012d" ADtrustStorePath=""
+        ADtrustStorePassword="#com.ghc.1!d60f" ADtrustStorePath=""
         autoLogin="true" host="IBM-PW02XP1M"
         permFactId="rtcp.permissions.factory.none" port="389" pswd="mhKkUTUDniBD4iAKDg+EFADRj8kg4axAdwmnYctVAXc=$CeDLuzlGMuGPMA251xQdOnc9cHvFoxiA0HPAKJsTOrE="/>
 </_c>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1726042269495"
+    createdUser="VitoSammarco1" id="-6a34b803:191e015b920:-7dc6"
+    selfDescribing="graphql-app-deploy.apps.6658525ddfd152001ef3dcb7.cloud.techzone. - Windows Performance Monitor (valore predefinito)"
+    type="probe_resource" updatedTimestamp="1726042269495"
+    updatedUser="VitoSammarco1" version="1.0">
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig defaultFlag="true" name="valore predefinito"
+        physicalResourceID="-6a34b803:191e015b920:-7dd5" probeID="ghviewer.plugin.perfmon">
+        <PerfMonDatasource configurazione="valore predefinito"/>
+    </resourceConfig>
+</editableResource>
